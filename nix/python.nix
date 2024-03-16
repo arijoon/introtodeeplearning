@@ -46,4 +46,8 @@ python310.withPackages (ps: with ps;[
     h5py
     opencv4
     keras
+    # Required by vscode Jupyter plugin
+    # to easily run cells within the IDE
+    ipykernel
+    pip
 ])
